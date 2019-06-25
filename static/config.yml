@@ -1,0 +1,36 @@
+backend:
+  # Dev backend changes lost on refresh
+  # name: test-repo
+  
+  # GitHub backend without using netlify
+  name: github
+  repo: ntmk/content-manager
+  
+  # Netlify backend - uses netlify identities
+  # name: git-gateway
+  # branch: master # Branch to update on new commit if omitted defaults to master
+
+# used for displaying images in media library
+display_url: https://github.com/ntmk/content-manager/
+# Media files will be stored in the repo under static/images/uploads
+media_folder: "static/images/"
+# The src attribute for uploaded media will begin with /images/uploads
+public_folder: "/images"
+
+collections:
+# NOTE -  test extension 
+  - name: "product-page"
+    label: "Product Page"
+    extension: json
+    folder: "src/data/products"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "/{{slug}}"
+    editor:
+     preview: true
+    fields: 
+      - { label: "Template", name: "template", widget: "hidden", default: "static-page"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", hint: 'Short description for main page preview.', required: false }
+      - { label: "Content", name: "body",  hint: 'This will be set exactly as displayed in editor', widget: "markdown", required: false }
+
