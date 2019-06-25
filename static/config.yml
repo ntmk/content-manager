@@ -22,7 +22,7 @@ collections:
   - name: "product-page"
     label: "Product Page"
     extension: json
-    folder: "src/data/products"
+    folder: "static/data/products"
     create: true
     slug: "{{slug}}"
     preview_path: "/{{slug}}"
