@@ -47,7 +47,6 @@ collections:
         { label: "Reviews", name: "reviews", widget: "list", required: false, fields: [
           { label: "Review Source", name: "review_source", widget: "string" , required: false},
           { label: "Review Source URL", name: "source_url", widget: "string" , required: false},
-          { label: "Product Logo", name: "product_logo", widget: "image", required: false },
           { label: "Quote", name: "quote", widget: "string" , required: false},
         ]}
       ] }
