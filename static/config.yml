@@ -21,15 +21,14 @@ collections:
   - name: "product-page"
     label: "Product Page"
     extension: json
-    folder: "static/products"
+    folder: "static/data"
     create: true
-    identifier_field: product_name
     slug: "{{slug}}"
     preview_path: "/{{slug}}"
     editor:
       preview: true
     fields: 
-      - { label: "Test", name: "title", widget: "text" }
+      - { label: "Test", name: "title", widget: "text", default: "products" }
       - { label: "Products", name: "products", widget: "list", default: [], required: false, fields: [
           { label: "Product Logo", name: "product_logo", widget: "image", required: false },
           { label: "Product Name", name: "product_name", widget: "string" , required: false },
