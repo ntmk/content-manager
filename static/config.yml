@@ -45,15 +45,13 @@ collections:
             { label: "More Info Content", name: "more_info_content", widget: "markdown", required: false },
             { label: "Review Link", name: "review_link", widget: "string", required: false },
             { label: "Site Link", name: "site_link", widget: "string", required: false }
-          ] }
-          { label: "Reviews", name: "reviews", widget: "object", required: false, fields: [
-          { label: "Reviews Title", name: "reviews_title", widget: "string", required: false },
+          ] },
           { label: "Reviews", name: "reviews", widget: "list", required: false, fields: [
             { label: "Review Source", name: "review_source", widget: "string" , required: false},
             { label: "Review Source URL", name: "source_url", widget: "string" , required: false},
             { label: "Product Logo", name: "product_logo", widget: "image", required: false },
             { label: "Quote", name: "quote", widget: "string" , required: false},
           ]}
-      ] }
+        ] }
       ] }
 
