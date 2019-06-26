@@ -29,18 +29,16 @@ collections:
       preview: true
     fields: 
       - { label: "Products", name: "products", widget: "list", default: [], required: false, fields: [
-        { label: "Rank Color", name: "rank_color", widget: "string", default: '#0079f2', required: false },
         { label: "Product Logo", name: "product_logo", widget: "image", required: false },
         { label: "Product Name", name: "product_name", widget: "string" , required: false},
         { label: "Key Points", name: "key_points", widget: "list", required: false, fields: [
           { label: "Key Points", name: "point", widget: "string" , required: false},
         ] },
-        { label: "Button Color", name: "button_color", widget: "string", default: '#85c525' , required: false},
         { label: 'Button URL', name: "button_url", widget: "string" , required: false},
         { label: "Button Text", name: "button_text", widget: "string" , required: false},
-        { label: "Star Rating", name: "star_rating", widget: "select", , required: false, options: ["1-stars", "2-stars", "3-stars", "3.5-stars", "4-stars", "4.5-stars", "5-stars"] },
-        { label: "More Info", name: "more_info", widget: "object", , required: false, fields: [
-          { label: "More Info Title", name: "more_info_title", widget: "string" , required: false},
+        { label: "Star Rating", name: "star_rating", widget: "select", required: false, options: [1, 2, 3, 3.5, 4, 4.5, 5] },
+        { label: "More Info", name: "more_info", widget: "object", required: false, fields: [
+          { label: "More Info Title", name: "more_info_title", widget: "string", required: false},
           { label: "Product Image", name: "product_image", widget: "image", required: false },
           { label: "More Info Content", name: "more_info_content", widget: "markdown", required: false },
           { label: "Review Link", name: "review_link", widget: "string", required: false },
