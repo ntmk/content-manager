@@ -3,12 +3,12 @@ backend:
   # name: test-repo
   
   # GitHub backend without using netlify
-  name: github
-  repo: ntmk/content-manager
+  # name: github
+  # repo: ntmk/content-manager
   
   # Netlify backend - uses netlify identities
-  # name: git-gateway
-  # branch: master # Branch to update on new commit if omitted defaults to master
+  name: git-gateway
+  branch: master # Branch to update on new commit if omitted defaults to master
 
 # used for displaying images in media library
 display_url: https://github.com/ntmk/content-manager/
