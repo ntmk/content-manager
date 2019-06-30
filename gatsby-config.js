@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter`,
-    description: ``,
+    title: `Content Repository`,
+    description: `Main hub for all portfolio content`,
     author: ``,
   },
   plugins: [
@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-json`,
       options: {
-        typeName: `Products`,
+        typeName: `Data`,
       },  
     },
     {
