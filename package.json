@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "content-repository",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Using gatsby / netlify / github as a contant repository and seperate site data",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nathan Mackenzie",
   "dependencies": {
     "gatsby": "^2.10.4",
     "gatsby-plugin-react-helmet": "^3.1.0",
@@ -20,7 +20,7 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby", "netlify cms"
   ],
   "license": "MIT",
   "scripts": {
@@ -33,9 +33,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ntmk/content-repository"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/ntmk/content-repository/issues"
   }
 }

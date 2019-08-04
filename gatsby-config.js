@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Content Repository`,
     description: `Main hub for all portfolio content`,
-    author: ``,
+    author: `Nathan Mackenzie`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        path: `${__dirname}/static/data`,
+        path: `${__dirname}/data`,
       },
     },
   ],
