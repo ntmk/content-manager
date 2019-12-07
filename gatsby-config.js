@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Content Repository`,
-    description: `Main hub for all portfolio content`,
+    description: `Main hub for all site content`,
     author: `Nathan Mackenzie`,
   },
   plugins: [
